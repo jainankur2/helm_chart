@@ -1,0 +1,4 @@
+apiVersion: v1
+name: fynd-chart2
+description: A Helm chart for Fynd
+version: 0.1.0

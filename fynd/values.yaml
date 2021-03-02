@@ -1,0 +1,17 @@
+# Default values for fynd_chart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  repository: jainankur2/loylogic
+  pullPolicy: IfNotPresent
+  tag: "25"
+
+service:
+  name: Node
+  type: NodePort
+  targetPort: 30067
+  servicePort: 8080
+
