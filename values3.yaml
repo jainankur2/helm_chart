@@ -5,13 +5,13 @@
 replicaCount: 1
 
 image:
-  repository: jainankur2/loylogic
+  repository: jainankur2/project4
   pullPolicy: IfNotPresent
-  tag: "25"
+  tag: "27"
 
 service:
   name: Node
-  type: LoadBalancer 
-  targetPort: 30067
+  type: NodePort         
+  targetPort: 30081
   servicePort: 8080
 
