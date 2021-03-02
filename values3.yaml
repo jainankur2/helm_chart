@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
-
+Name: fynd-chart2
 image:
   repository: jainankur2/project4
   pullPolicy: IfNotPresent
@@ -13,5 +13,5 @@ service:
   name: Node
   type: NodePort         
   targetPort: 30081
-  servicePort: 8080
+  servicePort: 80
 
